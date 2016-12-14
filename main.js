@@ -279,8 +279,10 @@ function handleRequest(request, response) {
         respondUsingLatLong(request, response, latitude, longitude);
     } else if (parsedURL.path === "/") {
         respondWithPrompt(request, response);
-    } else {
+    } else if (parsedURL.path.substr(1,1) !== '?') {
         respondWithPathContent(request, path, response);
+    } else {
+        respondWithPrompt(request, response);
     }
     
     //console.log('Zip is ' + zipcode + ', lat/long are ' + latitude + "/" + longitude);
