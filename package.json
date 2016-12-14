@@ -1,0 +1,12 @@
+{
+    "name": "HelloNode",
+    "version": "1.0.0",
+    "keywords": ["util", "functional", "server", "client", "browser"],
+    "author": "Tim Quinn <tim.quinn@oracle.com>",
+    "main": "main.js",
+    "scripts": {
+        "start": "node main.js"
+    },
+    "contributors": [],
+    "dependencies": {}
+}
