@@ -11,7 +11,7 @@ var DukeOfHazardLAF = "<head><style>table {    font-family: arial, sans-serif;  
 "</style><title>Duke of Hazard</title></head>";
 
 // For ease of testing from inside the firewall
-var useProxy = true;
+var useProxy = false;
 
 var weatherHost = 'graphical.weather.gov';
 var weatherPort = 80;
